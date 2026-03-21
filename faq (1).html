@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
 html {
 	background: linear-gradient(to bottom, darkcyan, DodgerBlue);
-	height: 100%;
 	width: 100%;
-	background-repeat: no-repeat;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
 	background-attachment: fixed; 
 
 }
 
+
+
+.bck
+{
+	width:auto;
+}
 .p
 {
 	width: 70px;
-	height: 1000px;
+	height: 100vh;
 	border-style: solid;
 	border-color:lightskyblue;
 	position: absolute;
@@ -27,7 +36,7 @@ html {
 .g
 {
 	width: 80px;
-	height: 1000px;
+	height: 100vh;
 	background: linear-gradient(to bottom, palegreen, lightgreen);
 	position: absolute;
 	opacity: .25;
@@ -76,6 +85,18 @@ html {
 	z-index:1;
 }
 
+.aBox
+{
+	border-radius: 25px;
+	padding: 20px;
+	height: 600px;
+	width: 400px;
+	background-color:rgb(255, 151, 76);
+	position:absolute;
+	top: 48%;
+	z-index:1;
+}
+
 .mid
 {
 	display: flex;
@@ -84,13 +105,6 @@ html {
 	
 }
 
-.left
-{
-	display:flex;
-	allign-items: left;
-	justify-content: left;
-
-}
 
 .right
 {
@@ -109,35 +123,39 @@ html {
 
 <body>
 
+<div class=bck> 
+	<div class=mid>
+		<div class=headingBox></div>
+		<div class=qBox>"Hi"</div>
+		<div class="aBox"></div>
+	</div>
 
-<div class=mid>
-	<div class=headingBox></div>
-	<div class=qBox></div>
+	<div class=left>
+		<div class=qBox>"Hi"</div>
+		<div class="aBox"></div>
+	</div>
+
+	<div class=right>
+		<div class=qBox>"Hi"</div>
+		<div class="aBox"></div>
+
+
+
+	<div>
+		<div class=p id=p1></div>
+		<div class=p id=p2></div>
+		<div class=p id=p3></div>
+		<div class=p id=p4></div>
+
+		<div class=g id=p1></div>
+		<div class=g id=p2></div>
+		<div class=g id=p3></div>
+		<div class=g id=p4></div>
+	</div>
 </div>
-
-<div class=left>
-	<div class=qBox></div>
-</div>
-
-<div class=right>
-	<div class=qBox></div>
-
-
-
-<div>
-	<div class=p id=p1></div>
-	<div class=p id=p2></div>
-	<div class=p id=p3></div>
-	<div class=p id=p4></div>
-
-	<div class=g id=p1></div>
-	<div class=g id=p2></div>
-	<div class=g id=p3></div>
-	<div class=g id=p4></div>
-</div>
-
 
 
 
 </body>
+
 </html>
