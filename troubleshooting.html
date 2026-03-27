@@ -20,6 +20,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-shadow:1px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
+	
 
                 /* NEW: full background image */
                 background:
@@ -46,7 +49,34 @@
 
                 overflow: hidden;
             }
+            .nav-btn
+            {
+                position: absolute;
+                top:20px;
+                padding: 10px 20px;
+                background: linear-gradient( to bottom, #f8b320, #f28c28);
+                color: white;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                z-index: 5;
+                transition: 0.2s;
 
+            }
+            .nav-btn:hover
+            {
+                transform: scale(1.08);
+                background: linear-gradient( to bottom, #ffb347, #ff8c00 );
+            }
+            .left-btn
+            {
+                left: 20px;
+            }
+            .right-btn
+            {
+                right: 20px;
+            }
 
 
             .top-title
@@ -59,7 +89,7 @@
                 width: 590px;
                 height: 105px;
                 border-radius: 0 0 42px 42px;
-                background: linear-gradient( to bottom, #f8b320, #f4a407);
+                background: linear-gradient( to bottom, #FF974C,#FF974C);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -72,15 +102,15 @@
             {
                 font-size: 56px;
                 line-height: 1;
-                color: #e8e7ff;
+                color: #3F63AD;
                 font-style: italic;
                 font-weight: 800;
                 letter-spacing: 1px;
                 text-shadow:
-                0 0 0 #4332b8,
-                2px 2px 0 #4332b8,
-               -2px  2px 0 #4332b8,
-                2px -2px 0 #4332b8,
+                0 0 0 #edebf4,
+                2px 2px 0 #f5f5f9,
+               -2px  2px 0 #dedee1,
+                2px -2px 0 #f3f2f6,
                 0 5px 6px rgba(0,0,0,0.25);
             }
 
@@ -90,13 +120,15 @@
                 position: absolute;
                 width: 360px;
                 height:78px;
-                background: linear-gradient(to bottom, #ffbe2d, #f2a70a);
+                background: linear-gradient(to bottom, #931515, #931515);
                 border-radius: 0 36px 36px 0;
                 box-shadow: 0 5px 10px  rgba(0,0,0,0.25);
                 display: flex;
                 align-items: center;
                 padding: 0 28px;
                 z-index:3;
+                
+	
             }
 
             .section-label.right
@@ -108,6 +140,9 @@
                 justify-content: flex-end;
                 border-radius: 36px 0 0 36px;
                 padding-right: 34px;
+                text-shadow:1px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
+	
             }
 
             .section-label.left
@@ -129,17 +164,20 @@
                 1px -1px 0 #444,
                -1px -1px 0 #444,
                0 3px 3px rgba(0,0,0,0.2);
+               text-shadow:1px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
             }
 
             .card
              /* syling for red cards, still needs a bit of work to make pretty*/
             {
                 position: absolute;
-                background: linear-gradient(135deg, #871728, #9b1725 55%, #8a1422 100%);
+                background: linear-gradient(135deg,#FF974C, #FF974C 55%, #FF974C 100%);
                 border-radius: 0 40px 40px 0;
                 box-shadow: 10px 12px 16px rgba(0,0,0,0.3);
                 color:#fff;
                 z-index: 2;
+                
             }
 
             .card.right
@@ -184,6 +222,9 @@
                 1px -1px 0 #444,
                -1px -1px 0 #444,
                0 3px 3px rgba(0,0,0,0.35);
+               text-shadow:1px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
+	
             }
 
             .bottom-card
@@ -195,7 +236,7 @@
                 bottom: -8px;
                 width: 565px;
                 height: 160px;
-                background: linear-gradient(135deg, #861827, #9f1d28 55%, #8c1522 100%);
+                background: linear-gradient(135deg,#FF974C,#FF974C 55%, #FF974C 100%);
                 border-radius: 34px 34px 0 0;
                 box-shadow:0 -8px 14px rgba(0,0,0,0.28);
                 display: flex;
@@ -234,6 +275,8 @@
 
     <body>
         <div class="poster">
+            <a href = "https://denzelta.github.io/Grand-Guide-2-Graphics/" class="nav-btn left-btn">Home</a>
+            <a href = "javascript:history.back()" class="nav-btn right-btn">Back</a>
             <div class="top-title">
                 <h1>Troubleshooting</h1>
             </div>
@@ -273,8 +316,6 @@
         </div>
     </body>
 </html>
-
-
 
                 
                 
