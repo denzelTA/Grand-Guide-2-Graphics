@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+html {
+	background: linear-gradient(to bottom, darkcyan, DodgerBlue);
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed; 
+
+}
+
+
+
+.bck
+{
+	width:auto;
+}
+.p
+{
+	width: 70px;
+	height: 100vh;
+	border-style: solid;
+	border-color:lightskyblue;
+	position: absolute;
+	background-image: url("https://www.hallmarknameplate.com/wp-content/uploads/2018/12/AdobeStock_4381957.jpeg");
+	background-color: palegreen;
+	background-blend-mode: multiply;
+	opacity: .65;
+
+}
+.g
+{
+	width: 80px;
+	height: 100vh;
+	background: linear-gradient(to bottom, palegreen, lightgreen);
+	position: absolute;
+	opacity: .25;
+
+}
+
+#p1
+{
+	left:16%;
+}
+
+#p2
+{
+	left:32%;
+}
+#p3
+{
+	left:65%;
+}
+#p4
+{
+	left:84%;
+}
+
+.headingBox
+{
+	border-radius: 25px;
+	padding: 20px;
+	height: 250px;
+	width: 600px;
+	background-color:rgb(255, 151, 76);
+	position:absolute;
+	top: -100px;
+	z-index:1;
+}
+
+.nav-btn
+{
+	position: abosolute;
+	top:20px;
+	padding:20px 30px;
+	background-color:rgb(255, 151, 76);
+	border-radius: 25px;
+}
+
+.qBox
+{
+	border-radius: 25px;
+	padding: 20px;
+	height: 100px;
+	width: 400px;
+	background-color:darkred;
+	position:absolute;
+	top: 40%;
+	z-index:1;
+}
+
+.aBox
+{
+	border-radius: 25px;
+	padding: 20px;
+	height: 600px;
+	width: 400px;
+	background-color:rgb(255, 151, 76);
+	position:absolute;
+	top: 48%;
+	z-index:1;
+}
+
+.aStyle
+{
+	font-family:'Times New Roman', serif;
+	font-size:30px;
+	color:white;
+	position: relative;
+	top: -40px;
+	text-shadow:1px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
+	
+
+
+}
+.qStyle
+{
+	font-family:'Courier New', monospace;
+	font-size:26px;
+	color:white;
+	position: relative;
+	top: -45px;
+	text-shadow:2px 0 #ff5e5e, -2px 0 #ff5e5e, 0 2px #ff5e5e, 0 -2px #ff5e5e,
+             1px 1px #ff5e5e, -1px -1px #ff5e5e, 1px -1px #ff5e5e, -1px 1px #ff5e5e;
+	
+}
+
+.headStyle
+{
+	font-family:'Garmond';
+	font-size:100px;
+	position:relative;
+	font-weight:bold;
+	font-style: italic;
+	text-align: center;
+	color:rgb(63, 99, 173);
+	text-shadow:5px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+.mid
+{
+	display: flex;
+	allign-items: center;
+	justify-content: center;
+	
+}
+
+
+.right
+{
+
+	display:flex;
+	allign-items: right;
+	justify-content: right;
+	
+}
+
+</style>
+</head>
+
+
+
+
+<body>
+
+<div class=bck> 
+	<a href = "https://denzelta.github.io/Grand-Guide-2-Graphics/" class="nav-btn left-btn">Home</a>
+	<div class=mid>
+		<div class=headingBox>
+			<p class="headStyle">FAQ</p>
+		</div>
+		<div class=qBox>
+			<p class="qStyle">Q: How do I ensure I can use
+X card?</p> 
+		</div>
+		<div class="aBox">
+			<p class="aStyle">A: Be sure to check both the card’s website and your computer’s current hardware. A major important component of a graphics card is the Power Supply Unit, which supplies power to your hardware such as the CPU. If not enough power supplies the respective card, you may need to downgrade the graphics card or invest in a more powerful PSU</p>
+		</div>
+	</div>
+
+	<div class=left>
+		<div class=qBox>
+			<p class="qStyle">Q: What do the numbers mean?</p> 
+		</div>
+		<div class="aBox">
+			<p class="aStyle">A: The numbers, for example, a Nvidia 3060, references the card’s series and rank within it’s series. The previously mentioned 3060 would be in the 3000 series, and would be 60th in rank. Nvidia ranks it’s cards using 00, 20, 40, 60, and 80. The ranks of a card may outmatch it’s series, for instance a 4020 may be weaker than a 3060, as it’s ranking is 20 over 3060’s 60.</p>
+		</div>
+	</div>
+
+	<div class=right>
+		<div class=qBox>
+			<p class="qStyle">Q: Does my game need X Graphics Card?</p> 
+		</div>
+		<div class="aBox">
+			<p class="aStyle">A: To find out if the game can run on X Graphics Card, its best to check out the game’s store page on it, and see what it’s minimum or recommended cards are. It is also important to note that some cards may be able to run certain games, however may not be as fast as newer ones. This can be fixed slightly by tweaking the game’s “Video” settings. </p>
+		</div>
+
+
+
+	<div>
+		<div class=p id=p1></div>
+		<div class=p id=p2></div>
+		<div class=p id=p3></div>
+		<div class=p id=p4></div>
+
+		<div class=g id=p1></div>
+		<div class=g id=p2></div>
+		<div class=g id=p3></div>
+		<div class=g id=p4></div>
+	</div>
+</div>
+
+
+
+</body>
+
+</html>
