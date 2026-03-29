@@ -6,3 +6,22 @@ body
     font-family: "Poltawski Nowy", serif;
     margin:0px;
 }
+
+/*Title And Desc*/
+
+.TitleAndDesc .logo
+{
+font-family: "Kode Mono", serif;
+font-size: 72px;
+/*Gradient Text*/
+    background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+text-align:center;
+
+height:25%;
+width:33%;
+background-color:#6D2C2E;
+border-radius: 25px;
+}
