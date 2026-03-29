@@ -14,9 +14,7 @@ body
 font-family: "Kode Mono", serif;
 font-size: 72px;
 /*Gradient Text*/
-    background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
 
 text-align:center;
 
