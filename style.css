@@ -13,4 +13,14 @@ body
 {
 font-family: "Kode Mono", serif;
 font-size: 72px;
+/*Gradient Text*/
+    background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
+    -webkit-background-clip: text;
+
+text-align:center;
+
+height:25%;
+width:5%;
+background-color:#6D2C2E;
+border-radius: 25px;
 }
