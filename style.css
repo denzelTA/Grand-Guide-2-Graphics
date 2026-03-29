@@ -10,11 +10,14 @@ body
 /*Title And Desc*/
 .TitleAndDesc  .logo-box
 {
-height:25%;
-width:33%;
-background-color:#6D2C2E;
+height:35%;
+width:40%;
+background-color:#712C3E;
 border-radius: 25px;
 text-align:center;
+
+position: relative;
+left: -50px; 
 }
 
 .TitleAndDesc .logo-box .logo
@@ -28,4 +31,43 @@ text-align:center;
   background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
+text-decoration:none;
+left: 50px; 
+
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-weight: 600;
+}
+
+.TitleAndDesc  .logo-box2
+{
+height:35%;
+width:20%;
+background-color:#712C3E;
+border-radius: 25px;
+text-align:center;
+
+position: relative;
+left: 35%; 
+top :-200px;
+}
+
+.TitleAndDesc  .logo-box2 .curPage
+{
+font-family: "Keania One", serif;
+font-size: 72px;
+height:25%;
+width:10px;
+text-align:center;
+
+  background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+text-decoration:none;
+left: 50px; 
+
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;
 }
