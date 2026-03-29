@@ -11,9 +11,10 @@ body
 .TitleAndDesc  .logo-box
 {
 height:25%;
-width:5%;
+width:33%;
 background-color:#6D2C2E;
 border-radius: 25px;
+text-align:center;
 }
 
 .TitleAndDesc .logo-box .logo
@@ -23,6 +24,4 @@ font-size: 72px;
 height:25%;
 width:10px;
 text-align:center;
-
-
 }
