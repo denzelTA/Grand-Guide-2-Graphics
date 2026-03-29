@@ -8,19 +8,25 @@ body
 }
 
 /*Title And Desc*/
+.TitleAndDesc  .logo-box
+{
+height:25%;
+width:5%;
+background-color:#6D2C2E;
+border-radius: 25px;
+}
 
-.TitleAndDesc .logo
+.TitleAndDesc .logo-box .logo
 {
 font-family: "Kode Mono", serif;
 font-size: 72px;
 /*Gradient Text*/
     background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
     -webkit-background-clip: text;
-
-text-align:center;
-
+    -webkit-text-fill-color: transparent;
 height:25%;
 width:5%;
-background-color:#6D2C2E;
-border-radius: 25px;
+text-align:center;
+
+
 }
