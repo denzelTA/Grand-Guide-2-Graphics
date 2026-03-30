@@ -1,31 +1,33 @@
-body 
+html 
 {
     /*Prevents overflow on the x axis (no Side scroll) */
     overflow-x: hidden;
     background:#0685C9;
     font-family: "Poltawski Nowy", serif;
     margin:0px;
+    height: 100vh;
+    width: 100vw;
 }
 
 /*Title And Desc*/
 .TitleAndDesc  .logo-box
 {
-height:35%;
-width:40%;
+height:250px;
+width:300px;
 background-color:#712C3E;
 border-radius: 25px;
 text-align:center;
+border: 2px solid black;
 
 position: relative;
-left: -50px; 
+left: -1.5%; 
+top: -35px;
 }
 
 .TitleAndDesc .logo-box .logo
 {
 font-family: "Kode Mono", serif;
-font-size: 72px;
-height:25%;
-width:10px;
+font-size: 300%;
 text-align:center;
 
   background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
@@ -33,41 +35,111 @@ text-align:center;
   -webkit-text-fill-color: transparent;
   
 text-decoration:none;
-left: 50px; 
+position: relative;
+
+top: 35px;
 
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.TitleAndDesc  .logo-box2
+.TitleAndDesc .desc
 {
-height:35%;
-width:20%;
-background-color:#712C3E;
-border-radius: 25px;
-text-align:center;
-
-position: relative;
-left: 35%; 
-top :-200px;
+    color: #ffffff;
+    font-size: 30px;
+    width: 60vw;
+    position: relative;
+    top: -200px;
+    left: 350px;
 }
 
-.TitleAndDesc  .logo-box2 .curPage
+.Content
 {
-font-family: "Keania One", serif;
-font-size: 72px;
-height:25%;
-width:10px;
-text-align:center;
+    color: #ffffff;
+    font-size: 200%;
+    position: relative;
+    top: -100px;
+    left: -3%;
+    text-align: center;
 
-  background: linear-gradient(180deg, #7FA1FF, #2EFCFF, #8EFF59);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-text-decoration:none;
-left: 50px; 
+    background-color:#712C3E;
+    height:60vh;
+    width:75vw;
+    border-radius: 25px;
+    border: 8px solid black;
 
-  -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: black;
+}
+
+.VerticalMenuBar
+{
+
+}
+
+.BottomMenu
+{
+    
+}
+
+/* Shared button style */
+.menuPageIndex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15px;
+
+    background: #f5a623;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+
+    border-radius: 50px;
+    width: 40vw;
+    height: 70px;
+
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 300%;
+
+
+}
+
+.menuPageIndex2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15px;
+
+    background: #f5a623;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+
+    border-radius: 50px;
+    width: 280px;
+    height: 50vh;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 300%;
+
+
+}
+
+.VerticalMenuBar {
+    position: fixed;
+    right: 20px;
+    top: 30vh;
+    right: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.BottomMenu {
+    position: fixed;
+    bottom: 30px;
+    left: 35vw;
+    top:70vh;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 40px;
 }
