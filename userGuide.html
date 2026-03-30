@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="5070 Guide">
   
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="guideStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 
 
@@ -40,7 +40,7 @@
 
 <div class = "BuyingGuide">
 <h2 class = "Title"> Purchasing the RTX 5070</h2>
-<p class = "article">	Before purchasing ANY GPU, you should know what your goals are for building a PC. For example, if you like to play triple A, graphically intensive
+<p class = "article1">	Before purchasing ANY GPU, you should know what your goals are for building a PC. For example, if you like to play triple A, graphically intensive
 					games, you should prioritize GPU performance and feature set, as well 
 					as more cinematic monitor specifications (1440p/4k, HDR, Color Accuracy, 
 					etc). If you like to play more competitive games, your budget should
@@ -64,7 +64,7 @@
 					the extra that is being paid.
 </p>
 <img src = "images/newEggDeal.png">
-<p class = "caption">
+<p class = "caption1">
 		This 5070 comes with a good quality 750W PSU and the newest
 		Resident Evil Game. Even if you aren’t interested in the game,
 		having a PSU worth $110 will allow you to purchase the 5070
@@ -83,43 +83,91 @@
 </p>
 </div> 
 
-<div class = "InstallationGuide">
-	<h2 class = "Title">Installing the RTX 5070</h2>
-		<p class = "article">
-				This guide will go over the physical installation of the RTX 5070, as well as
-				software/drivers you’ll need to install.
-				<br><br>
-				If you ever installed a GPU, installing the RTX 5070 is essentially the same process, except for one small part: The new 12V-2x6 power connector, 
-				which will be discussed in more detail later. If you’ve used a different GPU on your PC, it is a good idea to download the drivers of your new GPU 
-				and then uninstall your old GPU’s drivers via DDU (Especially if moving from an AMD or Intel GPU).
-				<br><br>
-				Before we start this process, it is important to make sure that the PC is disconnected from power and any remaining power has been flushed out of 
-				the system. When you open the box of your new RTX 5070, you should see a manual, a 12V-2x6 power adapter, and then your GPU (of course). We can set 
-				the power adapter aside for now and worry about the GPU. The GPU needs to go into the slot highlighted in red below. Before we do this, however, the 
-				clip, highlighted in green, needs to be pushed down fully. We also need to remove the necessary expansion slot covers attached to the PC case. This 
-				should be to the right of the PCIE slot in red and can be removed with a screwdriver (make sure to keep the screw, we will need it later). We can 
-				now place the GPU into the slot. Insert the yellow PCIE adapter into the red slot. Once you hear a “click” from the clip, your GPU should be 
-				properly installed onto the motherboard, however, may be slagged downwards from the weight of itself. We can solve this by screwing the GPU onto 
-				the expansion slot we removed earlier.
-		</p>
-	<img src = "images/mobo.png">
-		<p class = "article">
-				<br><br>
-				The 5070 is now fully installed, however we need something to power it. New 50 series cards should come with a 12V-2x6 power adapter that allows 
-				you to power your GPU with any standard PSU. Some modern day PSUs (like the ones we recommended above) come with a 12V-2x6 power cable that can be
-				used as well. If you have an adapter, connect the end of it to your PSU’s 8 pin connector, then connect the other end to the GPU. Make sure your
-				power supply is turned on, then power on your PC with your new RTX 5070!
-				<br><br>
-				Now that you have turned on your PC, if you haven’t already downloaded drivers for the 5070, go ahead and get them from NVIDIA’s website. 
-				NVIDIA’s app will also be useful for enabling certain features like DLSS 4.5 and RTX HDR. Once your drivers are installed, test your GPU out on 
-				a game or benchmark like 3DMark Demo. If everything works fine, then feel free to dive into your favorite games and test the performance of your 
-				new 5070!
-		</p>
+<!-- Installation Guide -->
+<div class="InstallationGuide">
+<h2 class="Title">Installing the RTX 5070</h2>
+
+<p class="article1">
+This guide will go over the physical installation of the RTX 5070, as well as software/drivers you’ll need to install. installing the RTX 5070 is essentially the same process, except for one small part: The new 12V-2x6 power connector, which will be discussed in more detail later. If you’ve used a different GPU on your PC, it is a good idea to download the drivers of your new GPU and then uninstall your old GPU’s drivers via DDU (Especially if moving from an AMD or Intel GPU).
+</p>
+
+<p class="article1">
+<b>Preparation:</b>
+<br>
+Step 1: Shut down your PC completely.
+<br>
+Step 2: Unplug all cables from the system.
+<br>
+Step 3: Press the power button once to discharge remaining electricity.
+</p>
+
+<p class="article1">
+<b>Installing the GPU:</b>
+<br>
+Step 1: Open your PC case.
+<br>
+Step 2: Locate the PCIe slot on the motherboard (in red below, usually the top slot).
+<br>
+Step 3: Push down the retention clip on the slot (in green below).
+<br>
+Step 4: Remove the required expansion slot covers using a screwdriver.
+<br>
+Step 5: Align the GPU with the PCIe slot.
+<br>
+Step 6: Insert the GPU firmly until you hear a click.
+<br>
+Step 7: Secure the GPU to the case using screws.
+<br><br>
+
+Make sure the card sits level. If it sags, consider using a GPU support bracket.
+</p>
+
+<img src="images/mobo.png">
+
+<p class="article1">
+<b>Powering the GPU:</b>
+<br>
+Step 1: Locate the 12V-2x6 adapter included with your GPU.
+<br>
+Step 2: Connect the adapter to your GPU.
+<br>
+Step 3: Attach PSU cables to the adapter (usually 8-pin connectors).
+<br>
+Step 4: Ensure all cables are fully seated.
+</p>
+
+<p class="article1">
+<b>Driver Installation:</b>
+<br>
+Step 1: Turn on your PC.
+<br>
+Step 2: Download drivers from:
+<br>
+<a href="https://www.nvidia.com/Download/index.aspx" target="_blank">NVIDIA Driver Page</a>
+<br>
+Step 3: Install the drivers.
+<br>
+Step 4: Restart your system.
+<br><br>
+
+If switching from AMD or Intel GPUs, use DDU (Display Driver Uninstaller) before installing new drivers.
+</p>
+
+<p class="article1">
+<b>Testing:</b>
+<br>
+- Launch a game
+<br>
+- Run benchmarks like 3DMark Demo
+<br>
+- Monitor temperatures and performance
+</p>
+
 </div>
 
 <div class = "SoftwareGuide">
 	<h2 class = "Title"> Software Guide (DLSS 4 and 4.5) </h2>
-		<p class = "article">
+		<p class = "article1">
 		DLSS is a set of technologies developed by NVIDIA that allow for increased FPS, lower latency, and better image quality. Every Nvidia RTX GPU supports the most recent updates to DLSS, however, older cards may not have the hardware to efficiently run some of the newest technologies Nvidia has to offer. Since the 5070 is part of the latest series of Nvidia GPU, it has the technology necessary to support the DLSS 4.5, the most recent update to DLSS by Nvidia. While it will also fully support DLSS 5 in the future, this guide will go into detail about the technology that is currently available to us and how to use it for the best experience.
 		</p>
 		 <a class = "menuPage" href = "software pages/upscaling.html">Upscaling</a>
